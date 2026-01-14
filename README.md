@@ -1,4 +1,4 @@
-# Company Setup Portal
+# React Mantine Starter template
 
 A modern React + TypeScript web application for business setup and management in Dubai's thriving free zone. This project provides a seamless experience for users to start their business, contact support, and learn about services, with a beautiful UI powered by Ant Design and React Bootstrap.
 
