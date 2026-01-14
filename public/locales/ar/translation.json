@@ -1,0 +1,372 @@
+{
+  "common": {
+    "appName": "بوابة رخص البناء في دبي",
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجاح",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "submit": "إرسال",
+    "confirm": "تأكيد",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "view": "عرض",
+    "search": "بحث",
+    "filter": "تصفية",
+    "clear": "مسح",
+    "reset": "إعادة تعيين",
+    "next": "التالي",
+    "previous": "السابق",
+    "back": "رجوع",
+    "close": "إغلاق",
+    "yes": "نعم",
+    "no": "لا",
+    "or": "أو",
+    "and": "و",
+    "required": "مطلوب",
+    "optional": "اختياري",
+    "download": "تحميل",
+    "upload": "رفع",
+    "print": "طباعة",
+    "export": "تصدير",
+    "actions": "الإجراءات",
+    "status": "الحالة",
+    "date": "التاريخ",
+    "noData": "لا توجد بيانات",
+    "noResults": "لم يتم العثور على نتائج",
+    "selectOption": "اختر خياراً",
+    "learnMore": "اعرف المزيد",
+    "getStarted": "ابدأ الآن"
+  },
+
+  "nav": {
+    "home": "الرئيسية",
+    "about": "عن البوابة",
+    "services": "الخدمات",
+    "contact": "اتصل بنا",
+    "login": "تسجيل الدخول",
+    "register": "التسجيل",
+    "logout": "تسجيل الخروج",
+    "dashboard": "لوحة التحكم",
+    "applications": "الطلبات",
+    "newApplication": "طلب جديد",
+    "projects": "المشاريع",
+    "documents": "المستندات",
+    "notifications": "الإشعارات",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات"
+  },
+
+  "landing": {
+    "hero": {
+      "title": "بوابة رخص البناء والتخطيط العمراني في دبي",
+      "subtitle": "بوابتك للحصول على رخص البناء والموافقات على المخططات الرئيسية وخدمات عدم الممانعة في دبي.",
+      "ctaPrimary": "ابدأ طلبك",
+      "ctaSecondary": "اعرف المزيد"
+    },
+    "services": {
+      "title": "خدماتنا",
+      "subtitle": "خدمات شاملة للبناء والتخطيط في دبي",
+      "masterPlan": "موافقات المخطط الرئيسي",
+      "masterPlanDesc": "الموافقات المبدئية والنهائية على المخططات الرئيسية لمشاريع التطوير",
+      "buildingPermit": "رخص البناء",
+      "buildingPermitDesc": "طلبات رخص البناء لأنشطة البناء",
+      "noc": "خدمات عدم الممانعة",
+      "nocDesc": "شهادات عدم الممانعة لمختلف أنشطة البناء",
+      "modification": "التعديلات",
+      "modificationDesc": "موافقات تعديل وتغيير المباني",
+      "maintenance": "الصيانة",
+      "maintenanceDesc": "خدمات صيانة وتجديد المباني",
+      "demolition": "الهدم",
+      "demolitionDesc": "تصاريح وشهادات عدم ممانعة الهدم"
+    },
+    "howItWorks": {
+      "title": "كيف يعمل النظام",
+      "step1Title": "التسجيل",
+      "step1Desc": "أنشئ حسابك كاستشاري أو مقاول أو مالك عقار",
+      "step2Title": "التقديم",
+      "step2Desc": "قدم طلبك مع المستندات المطلوبة",
+      "step3Title": "المتابعة",
+      "step3Desc": "تابع حالة طلبك في الوقت الفعلي",
+      "step4Title": "الاستلام",
+      "step4Desc": "احصل على الموافقة وحمّل الشهادات"
+    },
+    "quickLinks": {
+      "title": "روابط سريعة",
+      "consultantLogin": "دخول الاستشاريين",
+      "contractorLogin": "دخول المقاولين",
+      "ownerLogin": "دخول ملاك العقارات",
+      "trackApplication": "تتبع الطلب",
+      "feeCalculator": "حاسبة الرسوم",
+      "faqs": "الأسئلة الشائعة"
+    }
+  },
+
+  "auth": {
+    "login": {
+      "title": "تسجيل الدخول",
+      "subtitle": "مرحباً بعودتك! يرجى تسجيل الدخول للمتابعة.",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "أدخل بريدك الإلكتروني",
+      "password": "كلمة المرور",
+      "passwordPlaceholder": "أدخل كلمة المرور",
+      "rememberMe": "تذكرني",
+      "forgotPassword": "نسيت كلمة المرور؟",
+      "signIn": "تسجيل الدخول",
+      "signInWithUAEPass": "تسجيل الدخول عبر الهوية الرقمية",
+      "noAccount": "ليس لديك حساب؟",
+      "signUp": "سجل الآن",
+      "invalidCredentials": "البريد الإلكتروني أو كلمة المرور غير صحيحة",
+      "loginSuccess": "تم تسجيل الدخول بنجاح"
+    },
+    "register": {
+      "title": "إنشاء حساب",
+      "subtitle": "اختر نوع حسابك للبدء",
+      "selectRole": "اختر دورك",
+      "consultant": "استشاري",
+      "consultantDesc": "الاستشاريون الهندسيون وشركات التصميم",
+      "contractor": "مقاول",
+      "contractorDesc": "مقاولو البناء والتشييد",
+      "owner": "مالك عقار",
+      "ownerDesc": "ملاك العقارات والمطورون",
+      "personalInfo": "المعلومات الشخصية",
+      "firstName": "الاسم الأول",
+      "lastName": "اسم العائلة",
+      "firstNameAr": "الاسم الأول (بالعربية)",
+      "lastNameAr": "اسم العائلة (بالعربية)",
+      "email": "البريد الإلكتروني",
+      "phone": "رقم الهاتف",
+      "emiratesId": "رقم الهوية الإماراتية",
+      "password": "كلمة المرور",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "companyInfo": "معلومات الشركة",
+      "companyName": "اسم الشركة",
+      "companyNameAr": "اسم الشركة (بالعربية)",
+      "licenseNumber": "رقم الرخصة",
+      "category": "الفئة",
+      "specializations": "التخصصات",
+      "gradeClassification": "تصنيف الدرجة",
+      "termsAgree": "أوافق على شروط الخدمة وسياسة الخصوصية",
+      "createAccount": "إنشاء حساب",
+      "haveAccount": "لديك حساب بالفعل؟",
+      "signIn": "تسجيل الدخول"
+    },
+    "forgotPassword": {
+      "title": "نسيت كلمة المرور",
+      "subtitle": "أدخل بريدك الإلكتروني لاستلام رابط إعادة تعيين كلمة المرور",
+      "email": "البريد الإلكتروني",
+      "sendLink": "إرسال رابط إعادة التعيين",
+      "backToLogin": "العودة لتسجيل الدخول",
+      "emailSent": "تم إرسال بريد إعادة تعيين كلمة المرور بنجاح"
+    },
+    "verifyEmail": {
+      "title": "تأكيد البريد الإلكتروني",
+      "subtitle": "لقد أرسلنا رابط التحقق إلى بريدك الإلكتروني",
+      "resend": "إعادة إرسال بريد التحقق",
+      "verified": "تم التحقق من البريد الإلكتروني بنجاح"
+    }
+  },
+
+  "dashboard": {
+    "welcome": "مرحباً",
+    "overview": "نظرة عامة",
+    "recentApplications": "الطلبات الأخيرة",
+    "quickActions": "إجراءات سريعة",
+    "notifications": "الإشعارات",
+    "statistics": {
+      "total": "إجمالي الطلبات",
+      "pending": "قيد الانتظار",
+      "approved": "معتمدة",
+      "rejected": "مرفوضة",
+      "draft": "المسودات"
+    }
+  },
+
+  "applications": {
+    "title": "الطلبات",
+    "newApplication": "طلب جديد",
+    "myApplications": "طلباتي",
+    "allApplications": "جميع الطلبات",
+    "referenceNumber": "الرقم المرجعي",
+    "serviceType": "نوع الخدمة",
+    "projectName": "اسم المشروع",
+    "owner": "المالك",
+    "consultant": "الاستشاري",
+    "contractor": "المقاول",
+    "submittedDate": "تاريخ التقديم",
+    "lastUpdated": "آخر تحديث",
+    "status": {
+      "draft": "مسودة",
+      "submitted": "تم الإرسال",
+      "under_review": "قيد المراجعة",
+      "pending_documents": "في انتظار المستندات",
+      "approved": "معتمد",
+      "rejected": "مرفوض",
+      "cancelled": "ملغى"
+    },
+    "filters": {
+      "status": "الحالة",
+      "serviceType": "نوع الخدمة",
+      "dateRange": "نطاق التاريخ",
+      "search": "البحث بالرقم المرجعي أو اسم المشروع"
+    },
+    "actions": {
+      "view": "عرض التفاصيل",
+      "edit": "تعديل",
+      "submit": "إرسال",
+      "cancel": "إلغاء الطلب",
+      "delete": "حذف المسودة"
+    },
+    "empty": {
+      "title": "لا توجد طلبات",
+      "description": "لم تقم بتقديم أي طلبات بعد.",
+      "action": "إنشاء طلب جديد"
+    }
+  },
+
+  "wizard": {
+    "title": "طلب جديد",
+    "steps": {
+      "serviceType": "نوع الخدمة",
+      "projectInfo": "معلومات المشروع",
+      "documents": "المستندات",
+      "review": "المراجعة والإرسال"
+    },
+    "serviceType": {
+      "title": "اختر نوع الخدمة",
+      "subtitle": "اختر نوع الخدمة التي تريد التقدم لها",
+      "popular": "الخدمات الشائعة",
+      "all": "جميع الخدمات",
+      "estimatedDays": "المدة المتوقعة: {{days}} يوم",
+      "estimatedFee": "الرسوم المتوقعة: {{fee}} درهم"
+    },
+    "projectInfo": {
+      "title": "معلومات المشروع",
+      "projectDetails": "تفاصيل المشروع",
+      "projectName": "اسم المشروع",
+      "projectNameAr": "اسم المشروع (بالعربية)",
+      "projectDescription": "وصف المشروع",
+      "location": "الموقع",
+      "emirate": "الإمارة",
+      "area": "المنطقة",
+      "street": "الشارع",
+      "plotNumber": "رقم القطعة",
+      "makaniNumber": "رقم مكاني",
+      "buildingDetails": "تفاصيل المبنى",
+      "numberOfFloors": "عدد الطوابق",
+      "totalArea": "المساحة الإجمالية المبنية (متر مربع)",
+      "landArea": "مساحة الأرض (متر مربع)",
+      "buildingType": "نوع المبنى",
+      "buildingUse": "استخدام المبنى",
+      "ownerInfo": "معلومات المالك",
+      "ownerType": "نوع المالك",
+      "ownerTypeSelf": "أنا المالك",
+      "ownerTypeExisting": "اختيار مالك موجود",
+      "ownerTypeNew": "إضافة مالك جديد"
+    },
+    "documents": {
+      "title": "رفع المستندات",
+      "subtitle": "قم برفع جميع المستندات المطلوبة لطلبك",
+      "required": "مطلوب",
+      "optional": "اختياري",
+      "dragDrop": "انقر أو اسحب الملفات للرفع",
+      "maxSize": "الحد الأقصى للحجم: {{size}} ميجابايت",
+      "acceptedFormats": "الصيغ المقبولة: {{formats}}",
+      "uploaded": "تم الرفع",
+      "pending": "قيد الانتظار"
+    },
+    "review": {
+      "title": "المراجعة والإرسال",
+      "subtitle": "يرجى مراجعة طلبك قبل الإرسال",
+      "serviceDetails": "تفاصيل الخدمة",
+      "projectDetails": "تفاصيل المشروع",
+      "ownerDetails": "تفاصيل المالك",
+      "documents": "المستندات المرفوعة",
+      "fees": "الرسوم",
+      "totalFee": "إجمالي الرسوم",
+      "submitApplication": "إرسال الطلب",
+      "saveDraft": "حفظ كمسودة",
+      "confirmSubmit": "هل أنت متأكد من رغبتك في إرسال هذا الطلب؟",
+      "submitSuccess": "تم إرسال الطلب بنجاح"
+    }
+  },
+
+  "applicationDetail": {
+    "title": "تفاصيل الطلب",
+    "referenceNumber": "الرقم المرجعي",
+    "tabs": {
+      "details": "التفاصيل",
+      "documents": "المستندات",
+      "timeline": "التسلسل الزمني",
+      "comments": "التعليقات"
+    },
+    "timeline": {
+      "title": "سجل الحالة"
+    },
+    "comments": {
+      "title": "التعليقات",
+      "addComment": "إضافة تعليق",
+      "placeholder": "اكتب تعليقك...",
+      "submit": "إرسال التعليق",
+      "noComments": "لا توجد تعليقات بعد"
+    },
+    "documents": {
+      "title": "المستندات",
+      "uploadMore": "رفع مستندات إضافية",
+      "noDocuments": "لم يتم رفع أي مستندات"
+    }
+  },
+
+  "profile": {
+    "title": "الملف الشخصي",
+    "personalInfo": "المعلومات الشخصية",
+    "companyInfo": "معلومات الشركة",
+    "changePassword": "تغيير كلمة المرور",
+    "currentPassword": "كلمة المرور الحالية",
+    "newPassword": "كلمة المرور الجديدة",
+    "confirmPassword": "تأكيد كلمة المرور الجديدة",
+    "updateProfile": "تحديث الملف الشخصي",
+    "updateSuccess": "تم تحديث الملف الشخصي بنجاح"
+  },
+
+  "notifications": {
+    "title": "الإشعارات",
+    "markAllRead": "تعليم الكل كمقروء",
+    "clearAll": "مسح الكل",
+    "noNotifications": "لا توجد إشعارات",
+    "viewAll": "عرض جميع الإشعارات",
+    "types": {
+      "application_submitted": "تم تقديم الطلب",
+      "application_approved": "تمت الموافقة على الطلب",
+      "application_rejected": "تم رفض الطلب",
+      "document_required": "مستند مطلوب",
+      "comment_added": "تعليق جديد",
+      "status_changed": "تغيير الحالة",
+      "payment_required": "الدفع مطلوب"
+    }
+  },
+
+  "errors": {
+    "required": "هذا الحقل مطلوب",
+    "invalidEmail": "يرجى إدخال بريد إلكتروني صحيح",
+    "invalidPhone": "يرجى إدخال رقم هاتف صحيح",
+    "invalidEmiratesId": "يرجى إدخال رقم هوية إماراتية صحيح",
+    "passwordMismatch": "كلمتا المرور غير متطابقتين",
+    "passwordTooShort": "يجب أن تكون كلمة المرور 8 أحرف على الأقل",
+    "fileToLarge": "حجم الملف يتجاوز الحد المسموح",
+    "invalidFileType": "نوع الملف غير صالح",
+    "networkError": "خطأ في الشبكة. يرجى المحاولة مرة أخرى.",
+    "serverError": "خطأ في الخادم. يرجى المحاولة لاحقاً.",
+    "unauthorized": "غير مصرح لك بتنفيذ هذا الإجراء",
+    "notFound": "لم يتم العثور على المورد"
+  },
+
+  "footer": {
+    "copyright": "© {{year}} بلدية دبي. جميع الحقوق محفوظة.",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsOfService": "شروط الخدمة",
+    "accessibility": "إمكانية الوصول",
+    "contact": "اتصل بنا",
+    "followUs": "تابعنا"
+  }
+}

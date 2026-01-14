@@ -1,0 +1,409 @@
+{
+  "common": {
+    "appName": "DCCJ Portal",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "filter": "Filter",
+    "clear": "Clear",
+    "reset": "Reset",
+    "next": "Next",
+    "previous": "Previous",
+    "back": "Back",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "or": "or",
+    "and": "and",
+    "required": "Required",
+    "optional": "Optional",
+    "download": "Download",
+    "upload": "Upload",
+    "print": "Print",
+    "export": "Export",
+    "actions": "Actions",
+    "status": "Status",
+    "date": "Date",
+    "noData": "No data available",
+    "noResults": "No results found",
+    "selectOption": "Select an option",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact Us",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "profile": "Profile",
+    "settings": "Settings",
+    "consultant": "Consultant"
+  },
+
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact Us",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "dashboard": "Dashboard",
+    "applications": "Applications",
+    "newApplication": "New Application",
+    "projects": "Projects",
+    "allProjects": "All Projects",
+    "newProject": "New Project",
+    "documents": "Documents",
+    "notifications": "Notifications",
+    "profile": "Profile",
+    "settings": "Settings",
+    "contractors": "Contractors",
+    "assignedProjects": "Assigned Projects",
+    "pendingReview": "Pending Review"
+  },
+
+  "landing": {
+    "hero": {
+      "title": "Dubai Building Permits & Urban Planning Portal",
+      "subtitle": "Your gateway to seamless building permit applications, master plan approvals, and NOC services in Dubai.",
+      "ctaPrimary": "Start Application",
+      "ctaSecondary": "Learn More"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive building and planning services for Dubai",
+      "masterPlan": "Master Plan Approvals",
+      "masterPlanDesc": "Initial and final master plan approvals for development projects",
+      "buildingPermit": "Building Permits",
+      "buildingPermitDesc": "Building permit applications for construction activities",
+      "noc": "NOC Services",
+      "nocDesc": "No Objection Certificates for various construction activities",
+      "modification": "Modifications",
+      "modificationDesc": "Building modification and alteration approvals",
+      "maintenance": "Maintenance",
+      "maintenanceDesc": "Building maintenance and renovation services",
+      "demolition": "Demolition",
+      "demolitionDesc": "Demolition permits and NOCs"
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "step1Title": "Register",
+      "step1Desc": "Create your account as a Consultant, Contractor, or Property Owner",
+      "step2Title": "Apply",
+      "step2Desc": "Submit your application with required documents",
+      "step3Title": "Track",
+      "step3Desc": "Monitor your application status in real-time",
+      "step4Title": "Receive",
+      "step4Desc": "Get your approval and download certificates"
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "consultantLogin": "Consultant Login",
+      "contractorLogin": "Contractor Login",
+      "ownerLogin": "Property Owner Login",
+      "trackApplication": "Track Application",
+      "feeCalculator": "Fee Calculator",
+      "faqs": "FAQs"
+    }
+  },
+
+  "auth": {
+    "login": {
+      "title": "Sign In",
+      "subtitle": "Welcome back! Please sign in to continue.",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot password?",
+      "signIn": "Sign In",
+      "signInWithUAEPass": "Sign in with UAE PASS",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up",
+      "invalidCredentials": "Invalid email or password",
+      "loginSuccess": "Login successful"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Choose your account type to get started",
+      "selectRole": "Select Your Role",
+      "consultant": "Consultant",
+      "consultantDesc": "Engineering consultants and design firms",
+      "contractor": "Contractor",
+      "contractorDesc": "Construction and building contractors",
+      "owner": "Property Owner",
+      "ownerDesc": "Property owners and developers",
+      "personalInfo": "Personal Information",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "firstNameAr": "First Name (Arabic)",
+      "lastNameAr": "Last Name (Arabic)",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "emiratesId": "Emirates ID",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "companyInfo": "Company Information",
+      "companyName": "Company Name",
+      "companyNameAr": "Company Name (Arabic)",
+      "licenseNumber": "License Number",
+      "category": "Category",
+      "specializations": "Specializations",
+      "gradeClassification": "Grade Classification",
+      "termsAgree": "I agree to the Terms of Service and Privacy Policy",
+      "createAccount": "Create Account",
+      "haveAccount": "Already have an account?",
+      "signIn": "Sign in"
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "subtitle": "Enter your email to receive a password reset link",
+      "email": "Email Address",
+      "sendLink": "Send Reset Link",
+      "backToLogin": "Back to Login",
+      "emailSent": "Password reset email sent successfully"
+    },
+    "verifyEmail": {
+      "title": "Verify Your Email",
+      "subtitle": "We've sent a verification link to your email address",
+      "resend": "Resend verification email",
+      "verified": "Email verified successfully"
+    }
+  },
+
+  "dashboard": {
+    "welcome": "Welcome",
+    "overview": "Overview",
+    "recentApplications": "Recent Applications",
+    "quickActions": "Quick Actions",
+    "notifications": "Notifications",
+    "statistics": {
+      "total": "Total Applications",
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "draft": "Drafts"
+    }
+  },
+
+  "applications": {
+    "title": "Applications",
+    "newApplication": "New Application",
+    "myApplications": "My Applications",
+    "allApplications": "All Applications",
+    "referenceNumber": "Reference Number",
+    "serviceType": "Service Type",
+    "projectName": "Project Name",
+    "owner": "Owner",
+    "consultant": "Consultant",
+    "contractor": "Contractor",
+    "submittedDate": "Submitted Date",
+    "lastUpdated": "Last Updated",
+    "status": {
+      "draft": "Draft",
+      "submitted": "Submitted",
+      "under_review": "Under Review",
+      "pending_documents": "Pending Documents",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "cancelled": "Cancelled"
+    },
+    "filters": {
+      "status": "Status",
+      "serviceType": "Service Type",
+      "dateRange": "Date Range",
+      "search": "Search by reference or project name"
+    },
+    "actions": {
+      "view": "View Details",
+      "edit": "Edit",
+      "submit": "Submit",
+      "cancel": "Cancel Application",
+      "delete": "Delete Draft"
+    },
+    "empty": {
+      "title": "No Applications",
+      "description": "You haven't submitted any applications yet.",
+      "action": "Create New Application"
+    }
+  },
+
+  "wizard": {
+    "title": "New Application",
+    "steps": {
+      "serviceType": "Service Type",
+      "projectInfo": "Project Information",
+      "documents": "Documents",
+      "review": "Review & Submit"
+    },
+    "serviceType": {
+      "title": "Select Service Type",
+      "subtitle": "Choose the type of service you want to apply for",
+      "popular": "Popular Services",
+      "all": "All Services",
+      "estimatedDays": "Est. {{days}} days",
+      "estimatedFee": "Est. Fee: AED {{fee}}"
+    },
+    "projectInfo": {
+      "title": "Project Information",
+      "projectDetails": "Project Details",
+      "projectName": "Project Name",
+      "projectNameAr": "Project Name (Arabic)",
+      "projectDescription": "Project Description",
+      "location": "Location",
+      "emirate": "Emirate",
+      "area": "Area",
+      "street": "Street",
+      "plotNumber": "Plot Number",
+      "makaniNumber": "Makani Number",
+      "buildingDetails": "Building Details",
+      "numberOfFloors": "Number of Floors",
+      "totalArea": "Total Built-Up Area (sqm)",
+      "landArea": "Land Area (sqm)",
+      "buildingType": "Building Type",
+      "buildingUse": "Building Use",
+      "ownerInfo": "Owner Information",
+      "ownerType": "Owner Type",
+      "ownerTypeSelf": "I am the owner",
+      "ownerTypeExisting": "Select existing owner",
+      "ownerTypeNew": "Add new owner"
+    },
+    "documents": {
+      "title": "Upload Documents",
+      "subtitle": "Upload all required documents for your application",
+      "required": "Required",
+      "optional": "Optional",
+      "dragDrop": "Click or drag files to upload",
+      "maxSize": "Max file size: {{size}}MB",
+      "acceptedFormats": "Accepted formats: {{formats}}",
+      "uploaded": "Uploaded",
+      "pending": "Pending"
+    },
+    "review": {
+      "title": "Review & Submit",
+      "subtitle": "Please review your application before submitting",
+      "serviceDetails": "Service Details",
+      "projectDetails": "Project Details",
+      "ownerDetails": "Owner Details",
+      "documents": "Uploaded Documents",
+      "fees": "Fees",
+      "totalFee": "Total Fee",
+      "submitApplication": "Submit Application",
+      "saveDraft": "Save as Draft",
+      "confirmSubmit": "Are you sure you want to submit this application?",
+      "submitSuccess": "Application submitted successfully"
+    }
+  },
+
+  "applicationDetail": {
+    "title": "Application Details",
+    "referenceNumber": "Reference Number",
+    "tabs": {
+      "details": "Details",
+      "documents": "Documents",
+      "timeline": "Timeline",
+      "comments": "Comments"
+    },
+    "timeline": {
+      "title": "Status History"
+    },
+    "comments": {
+      "title": "Comments",
+      "addComment": "Add Comment",
+      "placeholder": "Write your comment...",
+      "submit": "Submit Comment",
+      "noComments": "No comments yet"
+    },
+    "documents": {
+      "title": "Documents",
+      "uploadMore": "Upload More Documents",
+      "noDocuments": "No documents uploaded"
+    }
+  },
+
+  "profile": {
+    "title": "Profile",
+    "personalInfo": "Personal Information",
+    "companyInfo": "Company Information",
+    "changePassword": "Change Password",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm New Password",
+    "updateProfile": "Update Profile",
+    "updateSuccess": "Profile updated successfully"
+  },
+
+  "notifications": {
+    "title": "Notifications",
+    "markAllRead": "Mark all as read",
+    "clearAll": "Clear all",
+    "noNotifications": "No notifications",
+    "viewAll": "View all notifications",
+    "types": {
+      "application_submitted": "Application Submitted",
+      "application_approved": "Application Approved",
+      "application_rejected": "Application Rejected",
+      "document_required": "Document Required",
+      "comment_added": "New Comment",
+      "status_changed": "Status Changed",
+      "payment_required": "Payment Required"
+    }
+  },
+
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email address",
+    "invalidPhone": "Please enter a valid phone number",
+    "invalidEmiratesId": "Please enter a valid Emirates ID",
+    "passwordMismatch": "Passwords do not match",
+    "passwordTooShort": "Password must be at least 8 characters",
+    "fileToLarge": "File size exceeds maximum limit",
+    "invalidFileType": "Invalid file type",
+    "networkError": "Network error. Please try again.",
+    "serverError": "Server error. Please try again later.",
+    "unauthorized": "You are not authorized to perform this action",
+    "notFound": "Resource not found"
+  },
+
+  "footer": {
+    "copyright": "© {{year}} Dubai Municipality. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "accessibility": "Accessibility",
+    "contact": "Contact Us",
+    "followUs": "Follow Us",
+    "quickLinks": "Quick Links",
+    "phone": "Phone",
+    "email": "Email",
+    "allRightsReserved": "All rights reserved"
+  },
+
+  "auth": {
+    "welcomeBack": "Welcome Back",
+    "signInToContinue": "Sign in to continue to DCCJ Portal",
+    "email": "Email",
+    "emailRequired": "Please enter your email",
+    "emailInvalid": "Please enter a valid email",
+    "password": "Password",
+    "passwordRequired": "Please enter your password",
+    "or": "OR",
+    "loginWithUAEPass": "Login with UAE Pass",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account?",
+    "registerNow": "Register Now",
+    "loginSuccess": "Login successful!",
+    "invalidCredentials": "Invalid email or password",
+    "loginError": "Login failed. Please try again.",
+    "uaePassComingSoon": "UAE Pass integration coming soon"
+  }
+}
