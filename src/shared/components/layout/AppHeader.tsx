@@ -115,7 +115,7 @@ export const AppHeader: React.FC<AppHeaderProps> = ({
               gap: 8,
             }}
           >
-            DCCJ Portal
+            {t("common.appName")}
           </Anchor>
         </Group>
 
@@ -208,11 +208,14 @@ export const AppHeader: React.FC<AppHeaderProps> = ({
                 <Menu.Dropdown>
                   <Menu.Item
                     leftSection={<IconUser size={14} />}
-                    onClick={() => navigate(ROUTES.CONSULTANT.PROFILE)}
+                    onClick={() => navigate(ROUTES.PROFILE)}
                   >
                     {t("common.profile")}
                   </Menu.Item>
-                  <Menu.Item leftSection={<IconSettings size={14} />}>
+                  <Menu.Item
+                    leftSection={<IconSettings size={14} />}
+                    onClick={() => navigate(ROUTES.SETTINGS)}
+                  >
                     {t("common.settings")}
                   </Menu.Item>
                   <Menu.Divider />

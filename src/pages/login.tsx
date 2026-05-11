@@ -10,7 +10,6 @@ import {
   Card,
   Title,
   Text,
-  Divider,
   Stack,
   Anchor,
   Box,
@@ -20,7 +19,6 @@ import { notifications } from "@mantine/notifications";
 import { IconUser, IconLock, IconCheck, IconX } from "@tabler/icons-react";
 import { useTranslation } from "react-i18next";
 import { useUserStore } from "@/core/store";
-import { mockLogin } from "@/mocks/data/users.mock";
 import { ROUTES } from "@/config/routes";
 
 interface LoginFormValues {
@@ -29,20 +27,39 @@ interface LoginFormValues {
   rememberMe?: boolean;
 }
 
+// Replace with a real API call.
+async function fakeLogin(email: string, password: string) {
+  if (!email || !password) return null;
+  return {
+    user: {
+      id: "1",
+      email,
+      firstName: "Demo",
+      lastName: "User",
+      phone: "",
+      role: "user" as const,
+      isVerified: true,
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
+    },
+    token: "demo-token",
+  };
+}
+
 const LoginPage: React.FC = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const { t } = useTranslation();
   const { login, isLoading } = useUserStore();
 
-  // Get return URL from location state
-  const from = (location.state as { from?: { pathname: string } })?.from?.pathname || 
-    ROUTES.CONSULTANT.DASHBOARD;
+  const from =
+    (location.state as { from?: { pathname: string } })?.from?.pathname ||
+    ROUTES.DASHBOARD;
 
   const form = useForm<LoginFormValues>({
     initialValues: {
-      email: "consultant@dccj.ae",
-      password: "password123",
+      email: "",
+      password: "",
     },
     validate: {
       email: (value) => {
@@ -56,35 +73,11 @@ const LoginPage: React.FC = () => {
 
   const handleSubmit = async (values: LoginFormValues) => {
     try {
-      // Use mock login for prototype
-      const result = mockLogin(values.email, values.password);
-      
+      const result = await fakeLogin(values.email, values.password);
+
       if (result) {
-        // Login successful
-        login(
-          {
-            id: result.user.id,
-            email: result.user.email,
-            firstName: result.user.firstName,
-            lastName: result.user.lastName,
-            firstNameAr: result.user.firstNameAr,
-            lastNameAr: result.user.lastNameAr,
-            phone: result.user.phone,
-            emiratesId: result.user.emiratesId,
-            role: result.user.role,
-            avatar: result.user.avatar,
-            companyName: result.user.companyName,
-            companyNameAr: result.user.companyNameAr,
-            licenseNumber: result.user.licenseNumber,
-            licenseCategory: result.user.licenseCategory,
-            excellenceRating: result.user.excellenceRating,
-            isVerified: result.user.isVerified,
-            createdAt: result.user.createdAt,
-            updatedAt: result.user.updatedAt,
-          },
-          result.token
-        );
-        
+        login(result.user, result.token);
+
         notifications.show({
           title: t("common.success"),
           message: t("auth.loginSuccess"),
@@ -100,7 +93,7 @@ const LoginPage: React.FC = () => {
           icon: <IconX size={16} />,
         });
       }
-    } catch (error) {
+    } catch {
       notifications.show({
         title: t("common.error"),
         message: t("auth.loginError"),
@@ -124,18 +117,11 @@ const LoginPage: React.FC = () => {
         shadow="xl"
         radius="lg"
         p="xl"
-        style={{
-          width: "100%",
-          maxWidth: 480,
-        }}
+        style={{ width: "100%", maxWidth: 480 }}
       >
         <Stack align="center" mb="xl">
-          <Title order={2} c="#003366">
-            {t("auth.welcomeBack")}
-          </Title>
-          <Text c="dimmed">
-            {t("auth.signInToContinue")}
-          </Text>
+          <Title order={2}>{t("auth.welcomeBack")}</Title>
+          <Text c="dimmed">{t("auth.signInToContinue")}</Text>
         </Stack>
 
         <form onSubmit={form.onSubmit(handleSubmit)}>
@@ -158,38 +144,11 @@ const LoginPage: React.FC = () => {
               {...form.getInputProps("password")}
             />
 
-            <Button
-              type="submit"
-              fullWidth
-              size="md"
-              loading={isLoading}
-              mt="md"
-              color="dubaiBlue"
-            >
+            <Button type="submit" fullWidth size="md" loading={isLoading} mt="md">
               {t("common.login")}
             </Button>
           </Stack>
         </form>
-
-        <Divider label={t("auth.or")} labelPosition="center" my="lg" />
-
-        <Button
-          fullWidth
-          size="md"
-          variant="filled"
-          style={{
-            background: "#c5a572",
-            borderColor: "#c5a572",
-          }}
-          onClick={() =>
-            notifications.show({
-              message: t("auth.uaePassComingSoon"),
-              color: "blue",
-            })
-          }
-        >
-          {t("auth.loginWithUAEPass")}
-        </Button>
 
         <Stack align="center" mt="xl" gap="xs">
           <Anchor size="sm" onClick={() => navigate(ROUTES.FORGOT_PASSWORD)}>
@@ -202,26 +161,6 @@ const LoginPage: React.FC = () => {
             </Anchor>
           </Text>
         </Stack>
-
-        {/* Demo credentials hint */}
-        <Box
-          mt="xl"
-          p="sm"
-          style={{
-            background: "#f5f5f5",
-            borderRadius: 8,
-          }}
-        >
-          <Text size="xs" c="dimmed" fw={600} mb={4}>
-            Demo Credentials:
-          </Text>
-          <Text size="xs" c="dimmed">
-            Email: consultant@dccj.ae
-          </Text>
-          <Text size="xs" c="dimmed">
-            Password: password123
-          </Text>
-        </Box>
       </Card>
     </Box>
   );

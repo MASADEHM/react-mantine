@@ -112,8 +112,7 @@ const Signup: React.FC = () => {
           <Title order={1}>Create Your Account</Title>
 
           <Text size="lg" c="dimmed" mt="md">
-            Join Dubai Building Permits Portal to access personalized services and expert
-            support. Get started on your project journey today!
+            Create an account to get started.
           </Text>
         </Grid.Col>
       </Grid>

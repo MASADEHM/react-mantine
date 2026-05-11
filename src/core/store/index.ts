@@ -5,7 +5,6 @@ export {
   useUserStore,
   type User,
   type UserRole,
-  type LicenseCategory,
 } from "./user.store";
 
 export {

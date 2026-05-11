@@ -78,7 +78,7 @@ export const useUIStore = create<UIState>()(
       setGlobalLoading: (loading) => set({ globalLoading: loading }),
     }),
     {
-      name: "dccj-ui",
+      name: "app-ui",
       partialize: (state) => ({
         theme: state.theme,
         language: state.language,
